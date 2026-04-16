@@ -200,7 +200,7 @@ export default function Portfolio() {
     Outils: ["Git", "GitHub", "Jira"],
   };
 
-  const cvDeveloppeusePdf = "/cv/cv-developpeuse.pdf?v=20260416-3";
+  const cvDeveloppeusePdf = "/cv/cv_dev.pdf?v=20260416-1";
   const linkedinPhotoUrl = import.meta.env.VITE_PROFILE_PHOTO_URL?.trim();
   const profilePhotoSrc = linkedinPhotoUrl || "/photo-profile.png";
 
