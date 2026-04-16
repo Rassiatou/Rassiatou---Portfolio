@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .btn-motion {
+    @apply transition-all duration-300 ease-out;
+  }
+  .btn-motion:hover {
+    @apply -translate-y-0.5 shadow-lg;
+  }
+  .btn-motion:active {
+    @apply translate-y-0 scale-[0.98] shadow-md;
+  }
+}
