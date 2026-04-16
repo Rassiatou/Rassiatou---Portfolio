@@ -200,7 +200,7 @@ export default function Portfolio() {
     Outils: ["Git", "GitHub", "Jira"],
   };
 
-  const cvDeveloppeusePdf = "/cv/cv-developpeuse-2026.pdf";
+  const cvDeveloppeusePdf = "/cv/cv-developpeuse.pdf?v=20260416";
   const linkedinPhotoUrl = import.meta.env.VITE_PROFILE_PHOTO_URL?.trim();
   const profilePhotoSrc = linkedinPhotoUrl || "/photo-profile.png";
 
@@ -294,7 +294,7 @@ export default function Portfolio() {
           </p>
           <a
             href={cvDeveloppeusePdf}
-            download
+            download="cv_developpeuse.pdf"
             className="btn-motion mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-md shadow-blue-600/30 hover:bg-blue-800 hover:shadow-blue-800/25 sm:w-auto"
           >
             Télécharger le PDF
